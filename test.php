@@ -17,3 +17,4 @@ $modx->setLogTarget(XPDO_CLI_MODE ? 'ECHO' : 'HTML');
 
 echo '<pre>';
 print_r($modx->config);
+echo '</pre>';
